@@ -1,62 +1,66 @@
-# Gerenciador de Tarefas
+# Task Manager
 
-Este é um projeto de Gerenciador de Tarefas desenvolvido por **João Vitor Bastos**. É uma aplicação web que permite adicionar, visualizar, completar e remover tarefas. O projeto foi desenvolvido utilizando **React** como principal ferramenta e **Tailwind CSS** para a estilização.
+This is a Task Manager project developed by **João Vitor Bastos**. It is a web application that allows you to add, view, complete and remove tasks. The project was developed using **React** as the main tool and **Tailwind CSS** for styling.
 
-## Demonstração
+## Demo
 
-Você pode acessar o projeto online através do seguinte link:  
-[Gerenciador de Tarefas](https://gerenciador-de-tarefas-gold.vercel.app/)
+You can access the project online through the following link:
+[Task Manager](https://gerenciador-de-Tarefas-gold.vercel.app/)
 
-## Funcionalidades
+## Other Languages
 
-- **Adicionar tarefas**: Crie novas tarefas com título e descrição.
-- **Marcar tarefas como concluídas**: Clique em uma tarefa para marcá-la como concluída.
-- **Remover tarefas**: Exclua tarefas da lista.
-- **Visualizar detalhes das tarefas**: Veja o título e a descrição detalhada de cada tarefa.
+- [Versão em Português](README_pt-BR.md)
 
-## Tecnologias Utilizadas
+## Features
 
-- **React**: Biblioteca JavaScript para construção da interface.
-- **Tailwind CSS**: Framework de CSS para estilização rápida e eficiente.
-- **React Router**: Navegação entre páginas.
-- **LocalStorage**: Armazenamento local das tarefas no navegador.
-- **UUID**: Para gerar identificadores únicos para cada tarefa.
-- **Vercel**: Hospedagem do projeto.
+- **Add tasks**: Create new tasks with a title and description.
+- **Mark tasks as completed**: Click on a task to mark it as completed.
+- **Remove tasks**: Delete tasks from the list.
+- **View task details**: See the title and detailed description of each task.
 
-## Estrutura do Projeto
+## Technologies Used
 
-- **App.jsx**: Componente principal que gerencia o estado das tarefas.
-- **AddTask.jsx**: Componente responsável por adicionar novas tarefas.
-- **Tasks.jsx**: Componente que exibe a lista de tarefas e seus botões de ação (completar, visualizar detalhes, remover).
-- **TaskPage.jsx**: Página que exibe os detalhes de uma tarefa específica.
-- **Title.jsx**: Componente que renderiza os títulos da aplicação.
+- **React**: JavaScript library for building the interface.
+- **Tailwind CSS**: CSS framework for fast and efficient styling.
+- **React Router**: Navigation between pages.
+- **LocalStorage**: Local storage of tasks in the browser.
+- **UUID**: To generate unique identifiers for each task.
+- **Vercel**: Project hosting.
 
-## Como Rodar o Projeto Localmente
+## Project Structure
 
-1. Clone o repositório:
+- **App.jsx**: Main component that manages the state of tasks.
+- **AddTask.jsx**: Component responsible for adding new tasks.
+- **Tasks.jsx**: Component that displays the list of tasks and their action buttons (complete, view details, remove).
+- **TaskPage.jsx**: Page that displays the details of a specific task.
+- **Title.jsx**: Component that renders the application titles.
+
+## How to Run the Project Locally
+
+1. Clone the repository:
    ```bash
-   git clone https://github.com/bastosjoaovitor/gerenciador-de-tarefas.git
+   git clone https://github.com/bastosjoaovitor/gerenciador-de-Tarefas.git
 
-2. Acesse a pasta do projeto:
+2. Access the project folder:
    ```bash
-   cd gerenciador-de-tarefas
+   cd gerenciador-de-Tarefas
 
-3. Instale as dependências:
+3. Install the dependencies:
    ```bash
    npm install
 
-4. Inicie o servidor de desenvolvimento:
+4. Start the development server:
    ```bash
    npm run dev
 
-## Aprendizados
+## Lessons Learned
 
-Este projeto foi minha primeira experiência com React e Tailwind CSS, o que me permitiu aprender sobre o desenvolvimento de aplicações reativas e estilização utilizando classes utilitárias. Também aprendi a trabalhar com gerenciamento de estado em React e a integrar funcionalidades de navegação com o React Router.
+This project was my first experience with React and Tailwind CSS, which allowed me to learn about developing reactive applications and styling using utility classes. I also learned how to work with state management in React and how to integrate navigation features with React Router.
 
-## Contribuições
+## Contributions
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+Contributions are welcome! Feel free to open issues or send pull requests.
 
-## Licença
+## License
 
-Este projeto é de código aberto e está sob a [licença MIT](LICENSE).
+This project is open source and is under the [MIT license](LICENSE).
