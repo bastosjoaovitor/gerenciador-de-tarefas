@@ -61,6 +61,10 @@ function App() {
         <AddTask onAddTaskSubmit={onAddTaskSubmit}/>
         <Tasks tasks={tasks} onTaskClick={onTaskClick} onDeleteTaskClick={onDeleteTaskClick}/>
       </div>
+      <footer
+       className='fixed bottom-0 p-1 bg-slate-600 text-white w-full text-center'>
+        <p>&copy; Created by João Vitor Bastos.</p>
+      </footer>
     </div>
   )
 }
